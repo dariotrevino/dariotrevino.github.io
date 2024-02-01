@@ -26,3 +26,9 @@ print("Testing code blocks. User the ` not the ' sign.")
 
 ## How to add Photos
 ![img-description](https://pbs.twimg.com/profile_images/1714768311353774080/pugx7S5z_400x400.jpg)
+
+
+## How to Run Local Server
+```bash
+bundle exec jekyll s
+```
