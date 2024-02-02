@@ -2,7 +2,7 @@
 title: First Post
 date: 2024-02-01 12:38:00 -500
 categories: [Blog]
-tags: [Books, Blog, Random]
+tags: [books, blog, random]
 ---
 
 # Welcome
