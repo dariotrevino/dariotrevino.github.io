@@ -22,7 +22,7 @@ When you think about winning, you think about beating the other person. In most 
 - You have to find those win win situations and unlock those rewards where cooperation pays.
 
 #### Examples in History
-- Cold Ware (Nuclear warheads)
+- Cold War (Nuclear warheads)
 
 #### Overall takeaway from Game Theory
 1. Be nice
