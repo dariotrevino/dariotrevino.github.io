@@ -5,7 +5,7 @@ categories: [Philosophy, Political Science]
 tags: [blog, philosophy]
 ---
 # Game Theory
-Article based on this YouTube video: https://www.youtube.com/watch?v=mScpHTIi-kM
+Article based on this [YouTube video](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 #### What is game Theory? 
 Game theory is a bit of a misnomer by being called game theory as you might think of it as a game - but it's anything but. It has the potential of destroying the world.
