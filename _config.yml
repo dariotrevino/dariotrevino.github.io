@@ -52,6 +52,10 @@ google_site_verification: # fill in to your verification string
 google_analytics:
   id: G-HZBL34PD9L # fill in your Google Analytics ID
 
+#Google adsense settings
+adsense:
+  client: "ca-pub-6837297977337656"
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
