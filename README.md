@@ -1,1 +1,3 @@
-This is my blog, uses Jekyll. I was tired of bloated, slow Wordpress that locked up all my content.
+# My blog
+
+This is my blog, uses the [Jekyll](http://jekyllrb.com/) [Chirpy theme](https://chirpy.cotes.page).
