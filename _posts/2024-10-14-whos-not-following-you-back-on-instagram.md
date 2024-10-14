@@ -18,11 +18,13 @@ The safest and most convenient method is to use the [instaloader](https://instal
 ### Code
 
 1. Install instaloadeer
+
 ```bash
 pip install instaloader
 ```
 
 2. Create Python Script
+
 ```python
 import instaloader
 
