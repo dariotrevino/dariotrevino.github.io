@@ -1,3 +1,3 @@
-# My blog
+# Personal Website/Blog
 
-This is my blog, uses the [Jekyll](http://jekyllrb.com/) [Chirpy](https://chirpy.cotes.page) theme.
+This is my blog, I'm using the [Jekyll](http://jekyllrb.com/) [Chirpy](https://chirpy.cotes.page) theme.

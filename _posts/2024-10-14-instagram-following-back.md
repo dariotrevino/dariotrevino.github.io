@@ -22,7 +22,7 @@ The safest and most convenient method is to use the [instaloader](https://instal
 pip install instaloader
 ```
 
-2. Create Python script
+2. Create Python Script
 ```python
 import instaloader
 
@@ -46,7 +46,6 @@ not_following_back = followees - followers
 
 print("Users not following you back:", not_following_back)
 ```
-
 ### Conclusion
 • Instaloader is safe, more efficient, and likely won’t trigger security measures.
 
