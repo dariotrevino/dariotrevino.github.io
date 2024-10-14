@@ -9,7 +9,7 @@ tags: [Tech]
 Have you ever noticed a sudden drop in your follower count and wondered who is unfollowing you? Or perhaps you’re curious about identifying who isn’t truly a friend. I certainly was, so I did some digging into ways I could do this using Python. The primary objective is to retrieve your follower and following lists, then comparing the two lists to find out who isn’t following you back.
 
 ### Findings
-There are several methods for gathering your Instagram follower data. One approach is to use the Instagram API, which allows you to retrieve follow and following lists. However, Instagram’s API has become more restrictive, and official access requires approval for non-public data. Using bots or scrapers can trigger Instagram’s security measures which can potentially lead to Instagram blocking or restricting access so caution is advised. 
+There are several methods for gathering your Instagram follower data. One approach is to use the Instagram API, which allows you to retrieve follow and following lists. However, Instagram’s API has become more restrictive, and official access requires approval for non-public data. Using bots or scrapers can trigger Instagram’s security measures which can potentially lead to Instagram blocking or restricting access to your account so caution is advised. 
 
 Another option is to use web scrapers like Selenium to scrape the Instagram web interface for data. However, this approach may also trigger Instagram’s security measures.
 
