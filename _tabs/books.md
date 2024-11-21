@@ -1,5 +1,4 @@
 ---
-layout: books
 icon: fas fa fa-book
 order: 4
 ---
