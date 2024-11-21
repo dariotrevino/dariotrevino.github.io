@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
 I'm Dario, a cyber security engineer working at [American Express](https://www.americanexpress.com) helping keep customer data secure.
