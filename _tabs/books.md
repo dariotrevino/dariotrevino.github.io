@@ -3,6 +3,7 @@ icon: fas fa fa-book
 order: 4
 ---
 # Favorite Books
+As an Amazon Associate, I earn from qualifying purchases. This helps support the blog at no extra cost to you. Thanks for your support!
 
 ### Psychology
 1. [How to Win Friend and Influence People](https://amzn.to/3Z4TQ5r) by Dale Carnegie
