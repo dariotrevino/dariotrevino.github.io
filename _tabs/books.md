@@ -36,6 +36,12 @@ Books have always been a source of inspiration, growth, and perspective for me. 
 1. [Steve Jobs](https://amzn.to/4eLvPG2) by Walter Isaacson
 2. [Elon Musk](https://amzn.to/4hZbdNv) by Walter Isaacson
 
+#### Memoirs
+1. [Tuesdays with Morrie](https://amzn.to/3CCf2bo) by Mitch Albom
+2. [Five People You Meet in Heaven](https://amzn.to/4eOFrjs) by Mitch Albom
+3. [When Breath Becomes Air](https://amzn.to/4fHrzJ6) by Paul Kalanithi
+4. [The Last Lecture](https://amzn.to/3ZjSUeC) by Randy Pausch
+
 #### Fiction
 1. [Ready Player One](https://amzn.to/3V7dCMb) by Ernest Cline
 2. [Project Hail Mary](https://amzn.to/4i5qHjd) by Andy Weir
