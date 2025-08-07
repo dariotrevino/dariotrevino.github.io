@@ -66,4 +66,4 @@ Earning the CISSP is a milestone, but not the end of the journey. I plan to:
 
 ## Final Thoughts
 
-I’m proud of this accomplishment and grateful for the support I received along the way. If you’re thinking about taking the CISSP—go for it. It’s a challenge worth tackling and a very rewarding accomplishment. Your future self will thank you for the hard put you'll put into this exam.
+I’m proud of this accomplishment and grateful for the support I received along the way. If you’re thinking about taking the CISSP—go for it. It’s a challenge worth tackling and a very rewarding accomplishment. Your future self will thank you for the hard work you'll put into this exam.
