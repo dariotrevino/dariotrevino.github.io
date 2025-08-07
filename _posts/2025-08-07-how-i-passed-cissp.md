@@ -1,11 +1,11 @@
 ---
-title: How I Passed my CISSP
+title: How I Passed the CISSP Exam
 date: 2025-08-07 05:33:00 -500
 categories: [Technology, Blog]
 tags: [Tech]
 ---
 
-# I Passed the CISSP Exam! 🎉
+# I Passed the CISSP Exam!
 
 After months of studying, countless practice questions, and a lot of mental preparation, I’m excited to share that I’ve officially passed the **Certified Information Systems Security Professional (CISSP)** exam!
 
