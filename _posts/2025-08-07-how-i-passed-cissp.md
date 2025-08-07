@@ -21,7 +21,7 @@ Preparing for the CISSP was no small feat. Here's a breakdown of how I approache
 
 - [**Thor Pedersen’s Udemy Course (10/10)**](https://www.udemy.com/course/cissp-domain-1-2/?couponCode=KEEPLEARNING): This video series was fantastic. His voice felt a bit robotic at first, but you get used to it. I leaned heavily on the PDF study guides he provides and watched videos for topics I struggled with. I didn't even have to take notes because everything was broken down in his PDFs. Highly recommend.
     
-- [**Quantum Exams (10/10)**](): These were the closest to the actual exam format. They tested my patience and confidence but were invaluable. If you take enough assessments, you'll start to get repeat questions, but that isn't necessarily bad, just make sure you completely understand why the answer is what it is. There were some fancy words thrown in that I felt excessive, not sure why it would be designed that way. I took a ton of quizzes because I would take them after getting bored of studying. I'm proof that QE is harder than the exam, here are my scores:
+- [**Quantum Exams (10/10)**](https://quantumexams.com): These were the closest to the actual exam format. They tested my patience and confidence but were invaluable. If you take enough assessments, you'll start to get repeat questions, but that isn't necessarily bad, just make sure you completely understand why the answer is what it is. There were some fancy words thrown in that I felt excessive, not sure why it would be designed that way. I took a ton of quizzes because I would take them after getting bored of studying. I'm proof that QE is harder than the exam, here are my scores:
     
     - Practice Exam: 50
         
