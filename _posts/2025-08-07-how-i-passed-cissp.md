@@ -1,8 +1,8 @@
 ---
 title: How I Passed the CISSP Exam
 date: 2025-08-07 05:33:00 -500
-categories: [Technology, Blog]
-tags: [Tech]
+categories: [Cybersecurity, Blog]
+tags: [Tech, Cybersecurity]
 ---
 
 # I Passed the CISSP Exam!
