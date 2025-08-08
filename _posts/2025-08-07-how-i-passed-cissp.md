@@ -34,10 +34,6 @@ Preparing for the CISSP was no small feat. Here's a breakdown of how I approache
 - **Grok/ChatGPT (10/10)**: I used AI to dive deeper into complex topics and create mnemonics for memorization. For example, it helped me break down security models in a way that stuck.
     
 - **Pocket Prep App (10/10)**: This app was great for on-the-go studying. The questions are written similarly to Quantum Exams, and after a few quizzes, it highlights your weakest domains. I used it during breaks, bathroom trips, or when I needed a change from my usual study routine. I averaged 7/10 or 8/10 on most quizzes.
-- **Study Methods:**
-  - Daily reading sessions
-  - Flashcards and active recall
-  - Practice exams to simulate test day conditions
 
 Your goal should truly be understand the concepts, not just memorize answers.
 
