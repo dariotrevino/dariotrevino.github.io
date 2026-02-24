@@ -59,6 +59,7 @@ Earning the CISSP is a milestone, but not the end of the journey. I plan to:
 	- Either a MS in Cybersecurity from my Alma Mater UTSA, or an online MS in Cybersecurity like [Georgia Tech](https://pe.gatech.edu/degrees/cybersecurity).
 - Continue developing hands-on skills
 - Keep learning and giving back to the InfoSec community
+- Create more coding projects and utilize AI for development
 
 ## Final Thoughts
 
