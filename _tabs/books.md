@@ -1,5 +1,6 @@
 ---
-icon: fas fa fa-book
+title: Books
+icon: fas fa-book
 order: 4
 ---
 <p style="font-size: 0.85em; color: gray;">As an Amazon Associate, I earn from qualifying purchases. This helps support the blog at no extra cost to you. Thanks for your support!</p>
@@ -20,7 +21,7 @@ Books have always been a source of inspiration, growth, and perspective for me. 
 #### Personal Finance
 1. [Psychology of Money](https://amzn.to/3ZjOVPc) by Morgan Housel
 2. [The Millionaire Fastlane](https://amzn.to/48ZA3ZH) by MJ DeMarco
-3. [Rich Dad Poor Dad](https://amzn.to/48ZA3ZH) by Robert T. Kiyosaki
+3. [Rich Dad Poor Dad](https://www.amazon.com/dp/1612680194?tag=darioblog-20) by Robert T. Kiyosaki
 
 #### Technology
 1. [The Cuckoo's Egg](https://amzn.to/40UmFE5) by Cliff Stoll
