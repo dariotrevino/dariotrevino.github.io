@@ -8,7 +8,7 @@ order: 4
 Books have always been a source of inspiration, growth, and perspective for me. Below are some of my all-time favorites that have left a lasting impact on my life. Each one holds a special place in my journey, and I hope they bring you the same value and insight they brought me.
 
 #### Psychology
-1. [How to Win Friend and Influence People](https://amzn.to/3Z4TQ5r) by Dale Carnegie
+1. [How to Win Friends and Influence People](https://amzn.to/3Z4TQ5r) by Dale Carnegie
 2. [The Body Keeps the Score](https://amzn.to/4fFbvHE) by Bessel van der Kolk
 3. [The Laws of Human Nature](https://amzn.to/41j6Ffd) by Robert Greene
 
@@ -19,7 +19,7 @@ Books have always been a source of inspiration, growth, and perspective for me. 
 
 #### Personal Finance
 1. [Psychology of Money](https://amzn.to/3ZjOVPc) by Morgan Housel
-2. [The Millionarire Fastlane](https://amzn.to/48ZA3ZH) by MJ DeMarco
+2. [The Millionaire Fastlane](https://amzn.to/48ZA3ZH) by MJ DeMarco
 3. [Rich Dad Poor Dad](https://amzn.to/48ZA3ZH) by Robert T. Kiyosaki
 
 #### Technology
