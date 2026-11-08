@@ -1,6 +1,6 @@
 ---
 title: Game Theory
-date: 2024-07-08 03:48:00 -500
+date: 2024-07-08 03:48:00 -0500
 categories: [Philosophy, Political Science]
 tags: [blog, philosophy]
 ---

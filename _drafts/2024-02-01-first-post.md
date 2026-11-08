@@ -1,6 +1,6 @@
 ---
 title: First Post
-date: 2024-02-01 12:38:00 -500
+date: 2024-02-01 12:38:00 -0500
 categories: [Blog]
 tags: [books, blog, random]
 ---
