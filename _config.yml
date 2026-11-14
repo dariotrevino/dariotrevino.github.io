@@ -125,7 +125,3 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
-  # Old Chirpy tab pages. Their layouts no longer exist; delete these files when ready.
-  - _tabs/archives.md
-  - _tabs/categories.md
-  - _tabs/tags.md
