@@ -8,7 +8,7 @@ I'm Dario, a cyber security engineer working at [American Express](https://www.a
 
 I graduated from the [University of Texas at San Antonio](https://www.utsa.edu/) where I double majored in Cyber Security & Information Systems.
 
-I have developed skills in customer service, computer networking, operating systems, system administration, and security. My training has included hands-on practice in these areas. I'm passionate about continuously learning in the IT field and developing my skills.
+I work in cybersecurity, with a focus on protecting data. My background covers customer support, networking, operating systems and system administration, and that range is most of what makes security problems make sense to me. I hold the CISSP and I'm usually studying for the next thing.
 
 Interests: Cyber Security, Cloud, AI, Automation, Philosophy
 

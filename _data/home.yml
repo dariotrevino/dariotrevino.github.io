@@ -20,8 +20,8 @@ socials:
     url: https://twitter.com/dario_trevino
   - name: LinkedIn
     url: https://www.linkedin.com/in/dariotrevino
-  - name: RSS
-    url: /feed.xml
+  - name: Email
+    url: mailto:info@dariotrevino.com
 
 # Delete this block to hide the photo.
 photo:
@@ -35,7 +35,7 @@ now:
     - label: Studying
       text: "The CCSP. Exam before the year ends."
     - label: Building
-      text: "This site, rebuilt from scratch."
+      text: "This site and my YouTube channel."
     # - label: Reading
     #   text: "Book title here"
 

@@ -12,7 +12,7 @@ layout: default
     {% endfor %}
     <ul class="link-row">
       {% for link in home.socials %}
-        <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
       {% endfor %}
     </ul>
   </div>
