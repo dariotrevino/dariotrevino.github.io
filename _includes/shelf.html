@@ -1,9 +1,16 @@
 {% comment %}
-  Book spines. Takes a list of titles in the "books" parameter.
-  Colors and sizes rotate automatically in assets/css/site.css (.shelf).
+  Book spines. Takes a list in the "books" parameter; each item has a title
+  and an optional url. Colors and sizes rotate automatically in
+  assets/css/site.css (.shelf).
 {% endcomment %}
 <ul class="shelf" aria-label="Books on the shelf">
   {% for book in include.books %}
-    <li>{{ book }}</li>
+    <li>
+      {% if book.url %}
+        <a class="spine" href="{{ book.url }}" target="_blank" rel="sponsored noopener" title="{{ book.title }} on Amazon">{{ book.title }}</a>
+      {% else %}
+        <span class="spine">{{ book.title }}</span>
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>

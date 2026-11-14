@@ -34,8 +34,8 @@ now:
   items:
     - label: Studying
       text: "The CCSP. Exam before the year ends."
-    - label: Training
-      text: "Toward an Ironman."
+    - label: Building
+      text: "This site, rebuilt from scratch."
     # - label: Reading
     #   text: "Book title here"
 
@@ -45,14 +45,28 @@ projects:
     blurb: "A web app for analyzing your Instagram follower and following data."
 
 # Spines shown on the home page, left to right. The full list is _tabs/books.md.
+# "url" is the Amazon Associates link; leave it out for a spine that isn't a link.
 shelf:
-  - Sapiens
-  - The Lessons of History
-  - Psychology of Money
-  - The Cuckoo's Egg
-  - Sandworm
-  - Outlive
-  - Steve Jobs
-  - When Breath Becomes Air
-  - Project Hail Mary
-  - A Gentleman in Moscow
+  - title: Sapiens
+    url: https://amzn.to/494MwLA
+  - title: The Lessons of History
+    url: https://amzn.to/40ZenKY
+  - title: Psychology of Money
+    url: https://amzn.to/3ZjOVPc
+  - title: The Cuckoo's Egg
+    url: https://amzn.to/40UmFE5
+  - title: Sandworm
+    url: https://amzn.to/3OnhDso
+  - title: Outlive
+    url: https://amzn.to/3CQ2Kfj
+  - title: Steve Jobs
+    url: https://amzn.to/4eLvPG2
+  - title: When Breath Becomes Air
+    url: https://amzn.to/4fHrzJ6
+  - title: Project Hail Mary
+    url: https://amzn.to/4i5qHjd
+  - title: A Gentleman in Moscow
+    url: https://amzn.to/4g2RN8P
+
+# Shown under the shelf because the spines are affiliate links.
+shelf_note: "As an Amazon Associate, I earn from qualifying purchases."

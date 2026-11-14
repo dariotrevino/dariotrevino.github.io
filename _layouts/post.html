@@ -4,7 +4,7 @@ layout: default
 <article class="post">
   <header class="post-header">
     <p class="kicker">
-      {% if page.categories.size > 0 %}{{ page.categories | first }} / {% endif %}
+      {% if page.categories.size > 0 %}<a href="{{ '/writing/' | relative_url }}#{{ page.categories | first | slugify }}">{{ page.categories | first }}</a> / {% endif %}
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
     </p>
     <h1>{{ page.title }}</h1>

@@ -43,7 +43,7 @@ layout: default
     {% endif %}
     <article class="tile tile-wide lead">
       <p class="kicker">
-        Latest post{% if latest.categories.size > 0 %} / {{ latest.categories | first }}{% endif %} /
+        Latest post{% if latest.categories.size > 0 %} / <a href="{{ '/writing/' | relative_url }}#{{ latest.categories | first | slugify }}">{{ latest.categories | first }}</a>{% endif %} /
         <time datetime="{{ latest.date | date_to_xmlschema }}">{{ latest.date | date: "%b %-d, %Y" }}</time>
       </p>
       <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
@@ -73,6 +73,7 @@ layout: default
       <a class="more" href="{{ '/books/' | relative_url }}">All books</a>
     </div>
     {% include shelf.html books=home.shelf %}
+    {% if home.shelf_note %}<p class="shelf-note">{{ home.shelf_note }}</p>{% endif %}
   </section>
 
   <section id="projects" class="tile">
@@ -94,7 +95,7 @@ layout: default
       {% for post in site.posts offset: 1 limit: 6 %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="meta">{% if post.categories.size > 0 %}{{ post.categories | first }} / {% endif %}{{ post.date | date: "%Y" }}</span>
+          <span class="meta">{% if post.categories.size > 0 %}<a href="{{ '/writing/' | relative_url }}#{{ post.categories | first | slugify }}">{{ post.categories | first }}</a> / {% endif %}{{ post.date | date: "%Y" }}</span>
         </li>
       {% endfor %}
     </ul>

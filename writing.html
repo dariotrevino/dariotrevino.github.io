@@ -3,16 +3,53 @@ layout: default
 title: Writing
 permalink: /writing/
 ---
+{% comment %}
+  Posts grouped by topic. A post's topic is the FIRST category in its
+  front matter, e.g. `categories: [Philosophy]`. New topics appear here
+  automatically.
+{% endcomment %}
+{% assign topics = "" | split: "" %}
+{% for post in site.posts %}
+  {% assign topic = post.categories | first | default: "Other" %}
+  {% unless topics contains topic %}
+    {% assign topics = topics | push: topic %}
+  {% endunless %}
+{% endfor %}
+{% assign topics = topics | sort %}
+
 <article class="post">
-  <header class="post-header">
+  <header class="post-header" id="all">
     <h1>Writing</h1>
   </header>
-  <ul class="post-rows post-rows-full">
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="meta">{% if post.categories.size > 0 %}{{ post.categories | first }} / {% endif %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
-      </li>
+
+  <ul class="topic-links" aria-label="Topics">
+    <li><a href="#all">All <span class="count">{{ site.posts.size }}</span></a></li>
+    {% for topic in topics %}
+      {% assign count = 0 %}
+      {% for post in site.posts %}
+        {% assign post_topic = post.categories | first | default: "Other" %}
+        {% if post_topic == topic %}{% assign count = count | plus: 1 %}{% endif %}
+      {% endfor %}
+      <li><a href="#{{ topic | slugify }}">{{ topic }} <span class="count">{{ count }}</span></a></li>
     {% endfor %}
   </ul>
+
+  <div class="topics">
+    {% for topic in topics %}
+      <section class="topic" id="{{ topic | slugify }}">
+        <h2>{{ topic }}</h2>
+        <ul class="post-rows post-rows-full">
+          {% for post in site.posts %}
+            {% assign post_topic = post.categories | first | default: "Other" %}
+            {% if post_topic == topic %}
+              <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  </div>
 </article>

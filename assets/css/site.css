@@ -298,6 +298,8 @@ img { max-width: 100%; height: auto; }
   text-decoration: none;
 }
 .post-rows .meta { font-weight: 400; letter-spacing: 0.06em; color: var(--muted); }
+.post-rows .meta a { font-family: inherit; font-size: inherit; color: inherit; }
+.post-rows .meta a:hover { color: var(--red-text); }
 .post-rows-full li:last-child { border-bottom: 1px solid var(--line); }
 .post-rows-full a { font-size: 24px; }
 
@@ -314,7 +316,7 @@ img { max-width: 100%; height: auto; }
   border-bottom: 3px solid var(--ink);
 }
 
-.shelf li {
+.shelf .spine {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -326,10 +328,12 @@ img { max-width: 100%; height: auto; }
   white-space: nowrap;
   font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
   background: var(--ink);
   color: var(--bg);
+  transition: transform 0.15s ease;
 }
-.shelf li:nth-child(4n + 2) {
+.shelf li:nth-child(4n + 2) .spine {
   width: 40px;
   min-height: 204px;
   background: var(--spine-grey);
@@ -338,13 +342,13 @@ img { max-width: 100%; height: auto; }
   font-weight: 400;
   font-size: 17px;
 }
-.shelf li:nth-child(4n + 3) {
+.shelf li:nth-child(4n + 3) .spine {
   width: 50px;
   min-height: 240px;
   background: var(--red);
   color: #fff;
 }
-.shelf li:nth-child(4n) {
+.shelf li:nth-child(4n) .spine {
   width: 44px;
   min-height: 216px;
   background: var(--bg);
@@ -354,7 +358,52 @@ img { max-width: 100%; height: auto; }
   font-weight: 400;
   font-size: 17px;
 }
-.shelf li:nth-child(5n) { width: 52px; min-height: 246px; }
+.shelf li:nth-child(5n) .spine { width: 52px; min-height: 246px; }
+
+/* A linked spine lifts off the shelf when you point at it. */
+.shelf a.spine:hover,
+.shelf a.spine:focus-visible { transform: translateY(-12px); }
+
+.shelf-note { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
+
+/* ---------- Writing by topic ---------- */
+
+.topic-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 40px;
+  padding: 0;
+  list-style: none;
+}
+.topic-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.topic-links a:hover { border-color: var(--red-text); }
+.topic-links .count { color: var(--muted); }
+
+.topic { margin-bottom: 48px; scroll-margin-top: 24px; }
+.topic h2 {
+  margin: 0 0 8px;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1;
+}
+/* Clicking a topic shows only that topic. "All" shows everything again. */
+.topics:has(.topic:target) .topic:not(:target) { display: none; }
+
+.kicker a { color: inherit; text-decoration: none; }
+.kicker a:hover { text-decoration: underline; }
 
 /* ---------- Posts and pages ---------- */
 
@@ -598,7 +647,7 @@ img { max-width: 100%; height: auto; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .drawer, .drawer-backdrop { transition: none; }
+  .drawer, .drawer-backdrop, .shelf .spine { transition: none; }
 }
 
 @media (max-width: 640px) {
