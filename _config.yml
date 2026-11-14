@@ -121,7 +121,7 @@ exclude:
   - docs
   - tools
   - README.md
-  - LICENSE
+  - THIRD-PARTY-NOTICES.md
   - purgecss.js
   - "*.config.js"
   - "package*.json"

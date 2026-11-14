@@ -1,3 +1,12 @@
+# Third-party notices
+
+A few build files in this repository (the deploy workflow,
+`_plugins/posts-lastmod-hook.rb` and parts of `_config.yml`) come from the
+[Chirpy Starter](https://github.com/cotes2020/chirpy-starter) and remain under
+its license, reproduced below. It does not apply to the rest of the site.
+
+---
+
 MIT License
 
 Copyright (c) 2021 Cotes Chung
