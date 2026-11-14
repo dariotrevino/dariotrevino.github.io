@@ -1,0 +1,9 @@
+{% comment %}
+  Book spines. Takes a list of titles in the "books" parameter.
+  Colors and sizes rotate automatically in assets/css/site.css (.shelf).
+{% endcomment %}
+<ul class="shelf" aria-label="Books on the shelf">
+  {% for book in include.books %}
+    <li>{{ book }}</li>
+  {% endfor %}
+</ul>

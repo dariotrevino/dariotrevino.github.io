@@ -1,0 +1,18 @@
+---
+layout: default
+title: Writing
+permalink: /writing/
+---
+<article class="post">
+  <header class="post-header">
+    <h1>Writing</h1>
+  </header>
+  <ul class="post-rows post-rows-full">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="meta">{% if post.categories.size > 0 %}{{ post.categories | first }} / {% endif %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

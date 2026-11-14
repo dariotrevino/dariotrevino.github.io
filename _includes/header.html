@@ -1,0 +1,59 @@
+{% assign home = site.data.home %}
+<div class="wrap">
+  <header class="site-header">
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="site-nav" aria-label="Main">
+      {% include nav-links.html %}
+    </nav>
+  </header>
+</div>
+
+{% comment %} Slide-out menu. Only shown on phones (see .drawer in site.css). {% endcomment %}
+<div class="drawer-backdrop"></div>
+<aside id="drawer" class="drawer" aria-label="Menu">
+  <div class="drawer-top">
+    {% if home.avatar %}
+      <img class="drawer-avatar" src="{{ home.avatar.src | relative_url }}" alt="{{ home.avatar.alt }}" width="96" height="96">
+    {% endif %}
+    <a class="drawer-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {% if site.tagline %}<p class="drawer-tagline">{{ site.tagline }}</p>{% endif %}
+  </div>
+  <nav class="drawer-nav" aria-label="Menu">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    {% include nav-links.html %}
+  </nav>
+  <ul class="drawer-socials">
+    {% for link in home.socials %}
+      <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>
+</aside>
+
+<script>
+  (function () {
+    var button = document.querySelector('.menu-button');
+    var backdrop = document.querySelector('.drawer-backdrop');
+    var drawer = document.getElementById('drawer');
+    if (!button || !drawer) return;
+
+    function setOpen(open) {
+      document.body.classList.toggle('menu-open', open);
+      button.setAttribute('aria-expanded', open ? 'true' : 'false');
+      button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+
+    button.addEventListener('click', function () {
+      setOpen(!document.body.classList.contains('menu-open'));
+    });
+    backdrop.addEventListener('click', function () { setOpen(false); });
+    drawer.addEventListener('click', function (event) {
+      if (event.target.closest('a')) setOpen(false);
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') setOpen(false);
+    });
+  })();
+</script>

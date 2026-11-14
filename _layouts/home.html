@@ -1,0 +1,103 @@
+---
+layout: default
+---
+{% assign home = site.data.home %}
+{% assign latest = site.posts.first %}
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>{{ home.greeting }}<span class="accent">.</span></h1>
+    {% for paragraph in home.intro %}
+      {{ paragraph | markdownify }}
+    {% endfor %}
+    <ul class="link-row">
+      {% for link in home.socials %}
+        <li><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% if home.photo %}
+    <figure class="polaroid">
+      <img src="{{ home.photo.src | relative_url }}" alt="{{ home.photo.alt }}" width="769" height="1024">
+      <figcaption>{{ home.photo.caption }}</figcaption>
+    </figure>
+  {% endif %}
+</section>
+
+<div class="tiles">
+
+  {% if latest %}
+    {% comment %}
+      The blurb under the headline is the post's `description` if it has one,
+      otherwise its first paragraph (skipping a leading "# Heading").
+    {% endcomment %}
+    {% if latest.description %}
+      {% assign deck = latest.description %}
+    {% else %}
+      {% assign body = latest.content %}
+      {% if body contains '</h1>' %}
+        {% assign parts = body | split: '</h1>' %}
+        {% assign body = parts[1] %}
+      {% endif %}
+      {% assign deck = body | split: '</p>' | first | strip_html | normalize_whitespace | truncatewords: 60 %}
+    {% endif %}
+    <article class="tile tile-wide lead">
+      <p class="kicker">
+        Latest post{% if latest.categories.size > 0 %} / {{ latest.categories | first }}{% endif %} /
+        <time datetime="{{ latest.date | date_to_xmlschema }}">{{ latest.date | date: "%b %-d, %Y" }}</time>
+      </p>
+      <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+      <p class="deck">{{ deck }}</p>
+      <a class="more" href="{{ latest.url | relative_url }}">Continue reading</a>
+    </article>
+  {% endif %}
+
+  <section id="now" class="tile tile-red">
+    <div class="tile-head">
+      <h2>Now</h2>
+      <p class="stamp">{{ home.now.updated }}</p>
+    </div>
+    <dl class="now-list">
+      {% for item in home.now.items %}
+        <div>
+          <dt>{{ item.label }}</dt>
+          <dd>{{ item.text }}</dd>
+        </div>
+      {% endfor %}
+    </dl>
+  </section>
+
+  <section id="shelf" class="tile tile-wide">
+    <div class="tile-head">
+      <h2>Bookshelf</h2>
+      <a class="more" href="{{ '/books/' | relative_url }}">All books</a>
+    </div>
+    {% include shelf.html books=home.shelf %}
+  </section>
+
+  <section id="projects" class="tile">
+    <h2>Projects</h2>
+    {% for project in home.projects %}
+      <div class="project">
+        <a href="{{ project.url }}">{{ project.name }}</a>
+        <p>{{ project.blurb }}</p>
+      </div>
+    {% endfor %}
+  </section>
+
+  <section id="writing" class="tile tile-full">
+    <div class="tile-head">
+      <h2>More writing</h2>
+      <a class="more" href="{{ '/writing/' | relative_url }}">All writing</a>
+    </div>
+    <ul class="post-rows">
+      {% for post in site.posts offset: 1 limit: 6 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="meta">{% if post.categories.size > 0 %}{{ post.categories | first }} / {% endif %}{{ post.date | date: "%Y" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+</div>

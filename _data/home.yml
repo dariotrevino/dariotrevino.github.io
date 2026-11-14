@@ -1,0 +1,58 @@
+# Everything on the home page that isn't a post lives in this file.
+# Edit the text here; the layout is in _layouts/home.html.
+
+greeting: "Hey, I'm Dario"
+
+# Each item is one paragraph. Markdown links work.
+intro:
+  - "I'm a security engineer. I protect data for a living and chase my curiosity the rest of the time. That usually means AI, cybersecurity, philosophy and geopolitics."
+  - "This site is where I [write](#writing), keep my [bookshelf](#shelf), and track what I'm [building](#projects)."
+
+# Shown at the top of the slide-out menu on phones.
+avatar:
+  src: /assets/img/personal/avatar.jpeg
+  alt: "Dario's avatar"
+
+socials:
+  - name: GitHub
+    url: https://github.com/dariotrevino
+  - name: X
+    url: https://twitter.com/dario_trevino
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/dariotrevino
+  - name: RSS
+    url: /feed.xml
+
+# Delete this block to hide the photo.
+photo:
+  src: /assets/img/personal/About_Pic_Saltillo.jpeg
+  alt: "Dario leaning on a wall above the city of Saltillo, Mexico"
+  caption: "Saltillo, Mexico"
+
+now:
+  updated: "Nov 2026"
+  items:
+    - label: Studying
+      text: "The CCSP. Exam before the year ends."
+    - label: Training
+      text: "Toward an Ironman."
+    # - label: Reading
+    #   text: "Book title here"
+
+projects:
+  - name: Follower Analyzer
+    url: https://followeranalyzer.io
+    blurb: "A web app for analyzing your Instagram follower and following data."
+
+# Spines shown on the home page, left to right. The full list is _tabs/books.md.
+shelf:
+  - Sapiens
+  - The Lessons of History
+  - Psychology of Money
+  - The Cuckoo's Egg
+  - Sandworm
+  - Outlive
+  - Steve Jobs
+  - When Breath Becomes Air
+  - Project Hail Mary
+  - A Gentleman in Moscow

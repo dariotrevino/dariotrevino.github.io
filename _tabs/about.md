@@ -12,5 +12,5 @@ I have developed skills in customer service, computer networking, operating syst
 
 Interests: Cyber Security, Cloud, AI, Automation, Philosophy
 
-![On top of Saltillo, Mexico](assets/img/personal/About_Pic_Saltillo.jpeg){: w="487" h="262" }
+![On top of Saltillo, Mexico](/assets/img/personal/About_Pic_Saltillo.jpeg){: w="487" h="262" }
 _Me at the peak of [Saltillo, Mexico](https://en.wikipedia.org/wiki/Saltillo)_
