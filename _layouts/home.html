@@ -61,7 +61,7 @@ layout: default
       {% for item in home.now.items %}
         <div>
           <dt>{{ item.label }}</dt>
-          <dd>{{ item.text }}</dd>
+          <dd>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</dd>
         </div>
       {% endfor %}
     </dl>
