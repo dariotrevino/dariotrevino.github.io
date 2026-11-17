@@ -30,7 +30,7 @@ Books have always been a source of inspiration, growth, and perspective for me. 
 
 #### Health
 1. [The Body](https://www.amazon.com/dp/0804172722?tag=dario0fa-20) by Bill Bryson
-2. [Outlive](https://www.amazon.com/dp/B0B64WL9PK?tag=dario0fa-20) by Peter Attia
+2. [Outlive](https://www.amazon.com/dp/0593236599?tag=dario0fa-20) by Peter Attia
 3. [Born to Run](https://www.amazon.com/dp/0307279189?tag=dario0fa-20) by Christopher McDougall
 
 #### Biographies
