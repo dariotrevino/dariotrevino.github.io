@@ -42,6 +42,9 @@ now:
     #   text: "Book title here"
 
 projects:
+  - name: Worth Owning
+    url: https://worthowning.net
+    blurb: "A curated collection of high-quality, buy-it-forever products I personally like."
   - name: Follower Analyzer
     url: https://followeranalyzer.io
     blurb: "A web app for analyzing your Instagram follower and following data."
