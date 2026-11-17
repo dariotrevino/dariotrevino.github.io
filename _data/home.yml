@@ -50,25 +50,25 @@ projects:
 # "url" is the Amazon Associates link; leave it out for a spine that isn't a link.
 shelf:
   - title: Sapiens
-    url: https://amzn.to/494MwLA
+    url: https://www.amazon.com/dp/0062316117?tag=dario0fa-20
   - title: The Lessons of History
-    url: https://amzn.to/40ZenKY
+    url: https://www.amazon.com/dp/143914995X?tag=dario0fa-20
   - title: Psychology of Money
-    url: https://amzn.to/3ZjOVPc
+    url: https://www.amazon.com/dp/0857197681?tag=dario0fa-20
   - title: The Cuckoo's Egg
-    url: https://amzn.to/40UmFE5
+    url: https://www.amazon.com/dp/1668048167?tag=dario0fa-20
   - title: Sandworm
-    url: https://amzn.to/3OnhDso
+    url: https://www.amazon.com/dp/0525564632?tag=dario0fa-20
   - title: Outlive
-    url: https://amzn.to/3CQ2Kfj
+    url: https://www.amazon.com/dp/B0B64WL9PK?tag=dario0fa-20
   - title: Steve Jobs
-    url: https://amzn.to/4eLvPG2
+    url: https://www.amazon.com/dp/1982176865?tag=dario0fa-20
   - title: When Breath Becomes Air
-    url: https://amzn.to/4fHrzJ6
+    url: https://www.amazon.com/dp/1784701998?tag=dario0fa-20
   - title: Project Hail Mary
-    url: https://amzn.to/4i5qHjd
+    url: https://www.amazon.com/dp/0593135229?tag=dario0fa-20
   - title: A Gentleman in Moscow
-    url: https://amzn.to/4g2RN8P
+    url: https://www.amazon.com/dp/0143110438?tag=dario0fa-20
 
 # Shown under the shelf because the spines are affiliate links.
 shelf_note: "As an Amazon Associate, I earn from qualifying purchases."
