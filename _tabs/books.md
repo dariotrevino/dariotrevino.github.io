@@ -14,7 +14,7 @@ Books have always been a source of inspiration, growth, and perspective for me. 
 3. [The Laws of Human Nature](https://www.amazon.com/dp/014311137X?tag=dario0fa-20) by Robert Greene
 
 #### History
-1. [Sapiens: A Brief History of Humankind](https://www.amazon.com/dp/0062316117?tag=dario0fa-20) by Yuval Noah Harari
+1. [Sapiens: A Brief History of Humankind](https://www.amazon.com/dp/0063422018?tag=dario0fa-20) by Yuval Noah Harari
 2. [The Lessons of History](https://www.amazon.com/dp/143914995X?tag=dario0fa-20) by Will & Ariel Durant
 3. [Destined for War](https://www.amazon.com/dp/1328915387?tag=dario0fa-20) by Graham Allison
 
