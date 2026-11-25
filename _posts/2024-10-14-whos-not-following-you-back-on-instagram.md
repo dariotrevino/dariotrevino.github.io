@@ -1,6 +1,6 @@
 ---
 title: Who’s Not Following You Back on Instagram? Here’s How to Find Out Safely
-description: "A short Python script using Instaloader to see who doesn't follow you back on Instagram, without getting your account flagged."
+description: "See who doesn't follow you back on Instagram: the no-code, no-password way with Follower Analyzer, plus the original Python script using Instaloader."
 date: 2024-10-14 05:33:00 -0500
 categories: [Technology, Coding]
 tags: [Tech]
@@ -11,7 +11,20 @@ redirect_from:
 ### Introduction
 Have you ever noticed a sudden drop in your follower count and wondered who is unfollowing you? Or perhaps you’re curious about identifying who isn’t truly a friend. I certainly was, so I did some digging into ways I could do this using Python. The primary objective is to retrieve your follower and following lists, then compare the two lists to find out who isn’t following you back.
 
-> Don't want to run code? I built [Follower Analyzer](https://followeranalyzer.io), a web app that analyzes your Instagram follower and following data for you.
+### Update (November 2026): A Safer Way, No Code Needed
+Since writing this post, I built [Follower Analyzer](https://followeranalyzer.io), a free web app that does the same comparison without any code. It fixes the biggest problems with the script below:
+
+- **No password.** The script logs in to Instagram with your username and password, typed in plain text into a file. Logging in through a third-party tool is exactly the kind of thing that can get an account flagged. Follower Analyzer never asks for your password and never touches your account. It reads the data export Instagram itself gives you.
+- **Your data stays on your device.** The export is read in your browser and never uploaded anywhere. The only thing on the page that uses the network is Google Analytics for visit counts, and it sees nothing from your export.
+- **No setup.** No Python, no `pip install`, no terminal. Drop in the ZIP from Instagram and you get results in seconds.
+- **More than one list.** The script only tells you who doesn't follow you back. Follower Analyzer also shows who you don't follow back and your mutuals, and you can sort, search, export to CSV, or copy the usernames.
+- **See who unfollowed you.** Add an older export and it compares the two to show who unfollowed you and who's new since then.
+- **Accounts for inactive profiles.** Instagram's export still lists accounts that were deactivated or deleted, which is why your numbers may not match the app. Follower Analyzer flags this and estimates how many of your "not following back" are actually inactive.
+- **Free and unlimited.** No ads, no sign-up, check as often as you like.
+
+To get your export: in Instagram, go to Accounts Center, then Your information and permissions, then Export your information. Choose only **Followers and following**, set the date range to **All time**, and download the ZIP when Instagram emails you. The [Follower Analyzer](https://followeranalyzer.io) page walks through each step.
+
+The original Python approach is below if you want to see how it works under the hood.
 
 ### Findings
 There are several methods for gathering your Instagram follower data. One approach is to use the Instagram API, which allows you to retrieve follow and following lists. However, Instagram’s API has become more restrictive, and official access requires approval for non-public data. Using bots or scrapers can trigger Instagram’s security measures which can potentially lead to Instagram blocking or restricting access to your account so caution is advised. 
@@ -63,4 +76,4 @@ print("Users not following you back:", not_following_back)
 **Cons:**
 • You still need to log in to get your followers and followees, but the API usage is less likely to trigger security measures compared to browser automation.
 
-If you'd rather skip the script entirely, [Follower Analyzer](https://followeranalyzer.io) does it for you.
+If you'd rather skip the script and keep your password to yourself, use [Follower Analyzer](https://followeranalyzer.io) instead.
