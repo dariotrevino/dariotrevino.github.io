@@ -1,11 +1,15 @@
 ---
-title: Books
+title: Bookshelf
+description: "The books that changed how I think, grouped by topic: psychology, history, money, technology, health, biographies, memoirs, and fiction."
 icon: fas fa-book
 order: 4
+permalink: /books/
 ---
-<p style="font-size: 0.85em; color: gray;">As an Amazon Associate, I earn from qualifying purchases. This helps support the blog at no extra cost to you. Thanks for your support!</p>
+<div class="page-shelf">{% include shelf.html books=site.data.home.shelf %}</div>
 
-# Favorite Books
+{: .shelf-note}
+As an Amazon Associate, I earn from qualifying purchases. This helps support the site at no extra cost to you.
+
 Books have always been a source of inspiration, growth, and perspective for me. Below are some of my all-time favorites that have left a lasting impact on my life. Each one holds a special place in my journey, and I hope they bring you the same value and insight they brought me.
 
 #### Psychology

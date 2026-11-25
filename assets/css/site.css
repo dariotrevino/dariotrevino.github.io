@@ -366,6 +366,11 @@ img { max-width: 100%; height: auto; }
 
 .shelf-note { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
 
+/* The shelf at the top of the Books page. Hidden on phones, where it wraps
+   into two tall rows and repeats the list right below it. */
+.page-shelf { margin: 8px 0 0; }
+@media (max-width: 640px) { .page-shelf { display: none; } }
+
 /* ---------- Writing by topic ---------- */
 
 .topic-links {

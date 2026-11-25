@@ -1,5 +1,6 @@
 ---
 title: Who’s Not Following You Back on Instagram? Here’s How to Find Out Safely
+description: "A short Python script using Instaloader to see who doesn't follow you back on Instagram, without getting your account flagged."
 date: 2024-10-14 05:33:00 -0500
 categories: [Technology, Coding]
 tags: [Tech]
