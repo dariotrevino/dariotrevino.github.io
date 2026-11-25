@@ -13,5 +13,5 @@ Outside of work I'm usually reading or building something. Here I write about cy
 
 The best way to reach me is [email](mailto:info@dariotrevino.com). I'm also on [LinkedIn](https://www.linkedin.com/in/dariotrevino), [X](https://twitter.com/dario_trevino), [GitHub](https://github.com/dariotrevino), and [YouTube](https://www.youtube.com/@dariotrevino).
 
-![Dario leaning on a wall above the city of Saltillo, Mexico](/assets/img/personal/About_Pic_Saltillo.jpeg){: .about-photo width="769" height="1024"}
+![Dario leaning on a wall above the city of Saltillo, Mexico](/assets/img/personal/saltillo-769.webp){: .about-photo width="769" height="1024" loading="lazy" decoding="async"}
 _Me at the peak of [Saltillo, Mexico](https://en.wikipedia.org/wiki/Saltillo)_

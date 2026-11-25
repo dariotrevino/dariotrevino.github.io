@@ -37,3 +37,14 @@ The social icons in `_includes/social-icon.html` are from
 [Font Awesome Free](https://fontawesome.com) 7.3.1 by Fonticons, Inc.,
 licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 See <https://fontawesome.com/license/free>.
+
+---
+
+## Inter and Newsreader fonts
+
+The font files in `assets/fonts/` are
+[Inter](https://github.com/rsms/inter) (Copyright 2016 The Inter Project
+Authors) and [Newsreader](https://github.com/productiontype/Newsreader)
+(Copyright 2020 The Newsreader Project Authors), both licensed under the
+[SIL Open Font License 1.1](https://openfontlicense.org). They are the
+latin and latin-ext subsets served by Google Fonts.

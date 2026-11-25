@@ -18,7 +18,7 @@ layout: default
   </div>
   {% if home.photo %}
     <figure class="polaroid">
-      <img src="{{ home.photo.src | relative_url }}" alt="{{ home.photo.alt }}" width="769" height="1024">
+      <img src="{{ home.photo.src | relative_url }}"{% if home.photo.src_large %} srcset="{{ home.photo.src | relative_url }} 560w, {{ home.photo.src_large | relative_url }} 769w" sizes="260px"{% endif %} alt="{{ home.photo.alt }}" width="560" height="746" fetchpriority="high">
       <figcaption>{{ home.photo.caption }}</figcaption>
     </figure>
   {% endif %}

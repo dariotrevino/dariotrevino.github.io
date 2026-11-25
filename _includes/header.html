@@ -16,7 +16,7 @@
 <aside id="drawer" class="drawer" aria-label="Menu">
   <div class="drawer-top">
     {% if home.avatar %}
-      <img class="drawer-avatar" src="{{ home.avatar.src | relative_url }}" alt="{{ home.avatar.alt }}" width="96" height="96">
+      <img class="drawer-avatar" src="{{ home.avatar.src | relative_url }}" alt="{{ home.avatar.alt }}" width="96" height="96" loading="lazy" decoding="async">
     {% endif %}
     <a class="drawer-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     {% if site.tagline %}<p class="drawer-tagline">{{ site.tagline }}</p>{% endif %}

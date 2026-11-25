@@ -1,3 +1,4 @@
 <footer class="site-footer wrap">
   <p>&copy; {{ 'now' | date: '%Y' }} {{ site.social.name | default: site.title }}</p>
+  <a class="feed-link" href="{{ '/feed.xml' | relative_url }}" title="Subscribe with a feed reader">{% include social-icon.html name="rss" %}RSS</a>
 </footer>

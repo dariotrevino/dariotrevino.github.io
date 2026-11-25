@@ -122,7 +122,24 @@ img { max-width: 100%; height: auto; }
   font-size: 13px;
   color: var(--muted);
 }
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+}
 .site-footer p { margin: 0; }
+.feed-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  color: var(--muted);
+  text-decoration: none;
+}
+.feed-link:hover { color: var(--red-text); }
+.feed-link .icon { width: 14px; height: 14px; }
 
 /* ---------- Home: intro ---------- */
 
