@@ -1,10 +1,10 @@
 ---
 title: Game Theory
+description: "What the repeated prisoner's dilemma says about cooperation, and why nice, forgiving strategies win in the long run."
 date: 2024-07-08 03:48:00 -0500
 categories: [Philosophy, Political Science]
 tags: [blog, philosophy]
 ---
-# Game Theory
 Article based on this [YouTube video](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 #### What is Game Theory? 

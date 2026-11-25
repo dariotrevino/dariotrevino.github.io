@@ -28,18 +28,19 @@ layout: default
 
   {% if latest %}
     {% comment %}
-      The blurb under the headline is the post's `description` if it has one,
-      otherwise its first paragraph (skipping a leading "# Heading").
+      The blurb under the headline is the post's first paragraph (skipping a
+      leading "# Heading"). The `description` in front matter is for search
+      results and link previews; it's only used here if the post has no
+      paragraph to pull from.
     {% endcomment %}
-    {% if latest.description %}
+    {% assign body = latest.content %}
+    {% if body contains '</h1>' %}
+      {% assign parts = body | split: '</h1>' %}
+      {% assign body = parts[1] %}
+    {% endif %}
+    {% assign deck = body | split: '</p>' | first | strip_html | normalize_whitespace | truncatewords: 60 %}
+    {% if deck == "" and latest.description %}
       {% assign deck = latest.description %}
-    {% else %}
-      {% assign body = latest.content %}
-      {% if body contains '</h1>' %}
-        {% assign parts = body | split: '</h1>' %}
-        {% assign body = parts[1] %}
-      {% endif %}
-      {% assign deck = body | split: '</p>' | first | strip_html | normalize_whitespace | truncatewords: 60 %}
     {% endif %}
     <article class="tile tile-wide lead">
       <p class="kicker">

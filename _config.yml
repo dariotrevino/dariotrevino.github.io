@@ -24,7 +24,8 @@ title: Dario Trevino
 tagline: Security Engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Dario Trevino, Personal Website, Dario Blog, Cyber Security
+  Security engineer writing about cybersecurity, AI, philosophy, and the books
+  that changed how I think.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -101,6 +102,12 @@ collections:
     sort_by: order
 
 defaults:
+  # Preview image for link shares (LinkedIn, X, iMessage). A post can set its
+  # own `image:` in front matter to override it.
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/personal/social-card.jpg
   - scope:
       path: "" # An empty string here means all files in the project
       type: posts
