@@ -28,3 +28,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Font Awesome Free
+
+The social icons in `_includes/social-icon.html` are from
+[Font Awesome Free](https://fontawesome.com) 7.3.1 by Fonticons, Inc.,
+licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+See <https://fontawesome.com/license/free>.

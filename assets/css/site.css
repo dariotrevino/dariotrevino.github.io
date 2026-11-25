@@ -160,16 +160,23 @@ img { max-width: 100%; height: auto; }
 .link-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0 24px;
-  margin: 0;
+  gap: 0 6px;
+  margin: 0 0 0 -11px; /* lines the first icon up with the text above */
   padding: 0;
   list-style: none;
 }
 .link-row a {
   display: inline-flex;
   align-items: center;
-  min-height: 44px;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: var(--soft);
+  transition: color 0.15s ease, transform 0.15s ease;
 }
+.link-row a:hover,
+.link-row a:focus-visible { color: var(--red-text); transform: translateY(-2px); }
+.link-row .icon { width: 22px; height: 22px; }
 
 .polaroid {
   flex: 0 1 280px;
@@ -633,28 +640,31 @@ img { max-width: 100%; height: auto; }
   /* Socials sit at the bottom of the menu. */
   .drawer-socials {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 6px;
     margin: auto 0 0;
     padding: 16px 0 0;
     list-style: none;
     border-top: 1px solid var(--line);
   }
+  /* One row of circles; they shrink a little on the narrowest phones. */
+  .drawer-socials li { flex: 0 1 44px; }
   .drawer-socials a {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    min-height: 40px;
-    padding: 0 11px;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1;
     border: 1px solid var(--line);
     border-radius: 999px;
-    font-size: 13px;
-    font-weight: 500;
-    text-decoration: none;
+    color: var(--soft);
   }
+  .drawer-socials a:hover { color: var(--red-text); border-color: var(--red-text); }
+  .drawer-socials .icon { width: 18px; height: 18px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .drawer, .drawer-backdrop, .shelf .spine { transition: none; }
+  .drawer, .drawer-backdrop, .shelf .spine, .link-row a { transition: none; }
 }
 
 @media (max-width: 640px) {
