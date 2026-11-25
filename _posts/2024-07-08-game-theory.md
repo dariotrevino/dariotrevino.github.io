@@ -11,7 +11,7 @@ Article based on this [YouTube video](https://www.youtube.com/watch?v=mScpHTIi-k
 Game theory is a bit of a misnomer by being called game theory as you might think of it as a game - but it's anything but. It has the potential of destroying the world.
 
 #### What is the game?
-Submit computer programs (strategies) that would play each other for 200 rounds. The goal of the game is for the strategy to win as many points as possible.
+In 1980, political scientist Robert Axelrod ran a tournament built on the prisoner's dilemma. People were invited to submit computer programs (strategies) that would play each other for 200 rounds. The goal of the game is for the strategy to win as many points as possible.
 - The games will be repeated 5x to ensure the successful strategy was not just a fluke. 
 
 Tit for Tat: Starts by cooperating and then copies exactly what the opponent did in the last move. If they attack you, you attack back, but only once. If the opponent goes back to cooperating so do you.

@@ -460,7 +460,9 @@ img { max-width: 100%; height: auto; }
   font-size: 21px;
   color: var(--ink);
 }
+.prose blockquote > :last-child { margin-bottom: 0; }
 .prose img { display: block; margin: 0 auto; border-radius: 4px; }
+.prose img.about-photo { width: 100%; max-width: 360px; height: auto; margin-top: 2em; }
 .prose img + em {
   display: block;
   margin-top: 8px;
