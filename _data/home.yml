@@ -10,7 +10,7 @@ intro:
 
 # Shown at the top of the slide-out menu on phones.
 avatar:
-  src: /assets/img/personal/avatar.jpeg
+  src: /assets/img/personal/avatar-192.webp
   alt: "Dario's avatar"
 
 # "icon" picks the logo from _includes/social-icon.html.
@@ -33,7 +33,9 @@ socials:
 
 # Delete this block to hide the photo.
 photo:
-  src: /assets/img/personal/About_Pic_Saltillo.jpeg
+  src: /assets/img/personal/saltillo-560.webp
+  # Larger copy for high-resolution screens. Originals stay as .jpeg next to these.
+  src_large: /assets/img/personal/saltillo-769.webp
   alt: "Dario leaning on a wall above the city of Saltillo, Mexico"
   caption: "Saltillo, Mexico"
 
