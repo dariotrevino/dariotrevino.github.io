@@ -11,6 +11,8 @@ redirect_from:
 ### Introduction
 Have you ever noticed a sudden drop in your follower count and wondered who is unfollowing you? Or perhaps you’re curious about identifying who isn’t truly a friend. I certainly was, so I did some digging into ways I could do this using Python. The primary objective is to retrieve your follower and following lists, then compare the two lists to find out who isn’t following you back.
 
+> Don't want to run code? I built [Follower Analyzer](https://followeranalyzer.io), a web app that analyzes your Instagram follower and following data for you.
+
 ### Findings
 There are several methods for gathering your Instagram follower data. One approach is to use the Instagram API, which allows you to retrieve follow and following lists. However, Instagram’s API has become more restrictive, and official access requires approval for non-public data. Using bots or scrapers can trigger Instagram’s security measures which can potentially lead to Instagram blocking or restricting access to your account so caution is advised. 
 
@@ -60,3 +62,5 @@ print("Users not following you back:", not_following_back)
 
 **Cons:**
 • You still need to log in to get your followers and followees, but the API usage is less likely to trigger security measures compared to browser automation.
+
+If you'd rather skip the script entirely, [Follower Analyzer](https://followeranalyzer.io) does it for you.
