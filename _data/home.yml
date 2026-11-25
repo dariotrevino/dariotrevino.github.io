@@ -13,16 +13,22 @@ avatar:
   src: /assets/img/personal/avatar.jpeg
   alt: "Dario's avatar"
 
+# "icon" picks the logo from _includes/social-icon.html.
 socials:
   - name: GitHub
+    icon: github
     url: https://github.com/dariotrevino
   - name: X
+    icon: x
     url: https://twitter.com/dario_trevino
   - name: LinkedIn
+    icon: linkedin
     url: https://www.linkedin.com/in/dariotrevino
   - name: YouTube
+    icon: youtube
     url: https://www.youtube.com/@dariotrevino
   - name: Email
+    icon: email
     url: mailto:info@dariotrevino.com
 
 # Delete this block to hide the photo.
